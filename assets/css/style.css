@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(../img/5238573.jpg);
+  background-size: cover;
+}
+
 .text {
     font-family: Lexend;
     font-size: 40px;
