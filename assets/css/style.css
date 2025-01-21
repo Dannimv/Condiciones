@@ -1,5 +1,5 @@
 * {
-  border: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -13,22 +13,34 @@
   text-align: center;
 }
 
+.nutria {
+  margin: 20px;
+}
+
 .kitty {
   width: 400px;
+  border-radius: 10%;
 }
 
 .kuromi {
   width: 400px;
+  border-radius: 10%;
 }
 
 .melody {
   width: 400px;
+  border-radius: 10%;
 }
 
 .stickers {
   display: flex;
   padding: 10px;
   justify-content: space-around;
+}
+
+.text2 {
+  padding: 20px;
+  font-size: 30px;
 }
 
 .flex-container {
@@ -56,11 +68,17 @@
     background-position: center center;
     background-repeat: no-repeat;
     color: white;
+    outline: auto;
+    font-size: 20px;
     
 
   }
 
-  .btn2 {
+  .btnn {
     margin: 10px;
     padding: 10px;
+  }
+
+  .parrafo {
+    text-align: center;
   }
